@@ -89,7 +89,7 @@ public class Main {
     private static void printAllNames(Employee[] employees) {
         for (Employee employee : employees) {
             if (employee != null) {
-                System.out.println(employee.getFirstName() + " " + employee.getLastName());
+                System.out.println(employee.getLastName() + " " + employee.getFirstName() + " " + employee.getMiddleName());
             }
         }
     }
