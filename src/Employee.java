@@ -73,4 +73,12 @@ public class Employee {
                 " Отдел: " + department +
                 " Зарплата: " + salary  ;
     }
+    public String toStringWithOutDepartment() {
+        return
+                "id=" + id +
+                        " Имя: " + firstName +
+                        " Фамилия: " + lastName +
+                        " Отчество: " + middleName +
+                        " Зарплата: " + salary  ;
+    }
 }
