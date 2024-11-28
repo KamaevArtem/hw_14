@@ -4,11 +4,12 @@ public class Employee {
     private static int idCounter = 0;
 
     private int id;
-    private String firstName;
-    private String lastName;
-    private String middleName;
+    private  String firstName;
+    private  String lastName;
+    private  String middleName;
     private int department;
     private double salary;
+
     public int getId() {
         return id;
     }
